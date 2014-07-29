@@ -1,4 +1,7 @@
 vimmode
 =======
+Vim mode module for breach browser. Hope this can be the vim plugin for breach.
 
-Vim mode module for breach browser
+Breach
+=======
+Check this website : [Breach](http://breach.cc/)
