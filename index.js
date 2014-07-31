@@ -19,11 +19,13 @@ var bootstrap = function(http_srv) {
 
     breach.expose('init', function(src, args, cb_) {
       console.log('Vimmode Init');
+      /*
       breach.module('core').call('controls_set', {
         type: 'TOP',
         url: 'http://127.0.0.1:' + http_port + '/inputline',
-        dimension: 200,
+        dimension: 0, // TODO
       }, cb_);
+      */
       async.parallel([
         common._.vim_handler.init
         ], cb_);
